@@ -21,11 +21,11 @@ html:has(.menu:popover-open) {
   transition: 400ms allow-discrete;
   opacity: 0;
 }
-
+/* ouverture du menu  */
 .menu:popover-open {
   opacity: 1;
 }
-
+/*permet d'avoir une animation*/
 @starting-style {
   .menu:popover-open {
     opacity: 0;
@@ -37,7 +37,7 @@ html:has(.menu:popover-open) {
     transform: none;
   }
 }
-
+/* animation quand le burger se ferme */
 .menu:popover-open .burger--close {
   transform: rotate(90deg);
   transition: 400ms;
