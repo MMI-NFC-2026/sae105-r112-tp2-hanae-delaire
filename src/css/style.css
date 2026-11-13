@@ -63,6 +63,15 @@ html:has(.menu:popover-open) {
   height: auto;
 }
 
+.page-close {
+  position: fixed;
+  top: 0.75rem;
+  right: 0.75rem;
+  font-size: 1.5rem;
+  line-height: 1;
+  text-decoration: none;
+}
+
 nav > h4::before,
 nav > ul > li > a::before,
 nav > ul > li > ul > li > a::before {
